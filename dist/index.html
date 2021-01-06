@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS TAILWIND -->
+    <link rel="stylesheet" href="./tailwind.css" />
+
+    <title>Simple Landing Page | Homepage</title>
+  </head>
+  <body>
+    <div class="container font-poppins">
+      <!-- HEADER -->
+      <header class="header" id="header">
+        <nav
+          class="nav container flex justify-between align-middle mt-8 fixed w-full"
+        >
+          <a href="#" class="nav__logo font-bold text-xl">Simply</a>
+
+          <ul class="nav__menu flex text-gray-500" id="nav-menu">
+            <li class="nav_item ml-10 hover:text-black">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li class="nav_item ml-10 hover:text-black">
+              <a href="#" class="nav__link">Guides</a>
+            </li>
+            <li class="nav_item ml-10 hover:text-black">
+              <a href="#" class="nav__link">Policy</a>
+            </li>
+            <li class="nav_item ml-10 hover:text-black">
+              <a href="#" class="nav__link">Stories</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- HERO SECTION -->
+      <section class="hero h-screen grid gap-8 grid-cols-2 content-center">
+        <div class="hero__data ml-12 self-center">
+          <h1 class="hero__title font-bold text-6xl">
+            Beautiful and<br />Funny Illustration<br />Pack
+          </h1>
+          <p class="hero__description text-gray-500 mt-5">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s.
+          </p>
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white px-8 py-3 mt-5 rounded-full"
+          >
+            Get Started
+          </button>
+        </div>
+        <div class="hero__img">
+          <img src="./img/All Tasks Completed.png" alt="" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
